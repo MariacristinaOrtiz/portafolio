@@ -11,8 +11,8 @@ body {
  }
 
 body.background-image-startview {
-   background-image: url(../assets/imgs/startview.jpg);
-   background-size: 150% 100vh;
+   background-image: url(../assets/imgs/fondo.jpg);
+   background-size: 100% 100vh;
    background-repeat: no-repeat;
    background-position: center;
  }
@@ -38,7 +38,7 @@ body.background-image-startview {
   outline: 1px solid red;
 }
 ul li.li-nav {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .height-section {
   height: 80vh;
@@ -76,6 +76,9 @@ section div.row-aboutme {
   margin-left: 0;
   margin-right: 0;
 }
+img.photo {
+  margin-right: 0px;
+}
 div.text-aboutme {
   background-color: rgb(220, 220, 220);
   color: #000;
@@ -103,4 +106,21 @@ h5 {
 .skills {
   font-size: 2rem;
   margin: 10px;
+}
+/* ESTILOS VISTA CONTACTME*/
+ul li.li-icon-contactme {
+  font-size: 30px;
+  margin: 15px 15px 0px 15px;
+  border-bottom: 2px solid grey;
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+.row-contact {
+  margin: 80px;
+}
+section div.text-contact {
+  margin-bottom: 80px;
+}
+.container-footer {
+  margin: 20px;
 }
