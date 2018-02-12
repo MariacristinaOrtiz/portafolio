@@ -4,16 +4,19 @@
   margin: 0;
   padding: 0;
 }
-/* Estilos al Body*/
+/* ESTILOS AL BODY*/
 body {
   padding-top: 70px;
   font-family:'Roboto', sans-serif;
  }
-.height {
- height: 100vh;
- width: 100%;
-}
 
+body.background-image-startview {
+   background-image: url(../assets/imgs/startview.jpg);
+   background-size: 150% 100vh;
+   background-repeat: no-repeat;
+   background-position: center;
+ }
+ /* ESTILOS REUTILIZABLES*/
 .flex {
   display: flex;
 	justify-content: center;
@@ -24,22 +27,80 @@ body {
 	justify-content: center;
   align-items: center;
 }
-
-body.background-image-startview {
-  background-image: url(../assets/imgs/startview.jpg);
-  background-size: 150% 100vh;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+/* ....Fin de estilos reutilizables...*/
+/* eSTILOS A LA VISTA HOME*/
+/* ESTILOS AL NAV*/
 .figure-logo {
-  width: 30%;
+  width: 40%;
+  max-width: 100%;
 }
 .put {
   outline: 1px solid red;
 }
-.heightf {
-  height: 10vh;
+ul li.li-nav {
+  font-size: 2rem;
 }
 .height-section {
   height: 80vh;
+}
+ul.nav {
+  margin: 10px;
+}
+ul li.li-icon {
+  font-size: 30px;
+}
+.fab {
+  color: grey;
+}
+/* ESTILOS  A LA SECTION-DESCRIPTION*/
+hr {
+  border: 4px solid grey;
+   border-radius: 200px /8px;
+   height: 0px;
+   text-align: center;
+}
+/* ESTILOS  A LA SECTION REDES-SOCILAES*/
+i.social-networks  {
+  color: grey;
+}
+/*... FIN A ESTILOS DE LA VISTA HOME...*/
+/* .....ESTILOS A LA VISTA ABOUT ME......*/
+section.section-aboutme {
+
+}
+section div.container-aboutme {
+  padding: 0;
+  margin: 0;
+}
+section div.row-aboutme {
+  margin-left: 0;
+  margin-right: 0;
+}
+div.text-aboutme {
+  background-color: rgb(220, 220, 220);
+  color: #000;
+}
+h2.objective, h3.paragraph-aboutme, h2.greeting {
+  margin:30px;
+}
+h3.paragraph-aboutme {
+
+}
+footer {
+  background-color: rgb(50, 50, 50);
+}
+ul li.li-icon-aboutme {
+  font-size: 25px;
+  margin: 15px 15px 0px 15px;
+}
+.social-networks-aboutme {
+  color: #fff;
+}
+h5 {
+  color: #fff;
+  fonr
+}
+.skills {
+  font-size: 2rem;
+  margin: 10px;
 }
