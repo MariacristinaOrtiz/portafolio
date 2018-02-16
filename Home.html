@@ -12,13 +12,15 @@
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <!--Import Tipografy-->
   <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro:200i,300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Exo+2:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet">
   <!--Vínculo bootstrap y main.css-->
   <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body class="background-image-startview height">
-  <header class="">
-    <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="opacity">
+  <header>
+    <nav class="navbar home navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-3 text-center flex-nav">
@@ -30,9 +32,9 @@
           </div>
           <div class="col-md-6 col-md-offset-3 flex-nav">
             <ul class="nav navbar-nav">
-            <li class="li-nav"><a href="views/aboutme.html"><i class="fas fa-user"></i> Sobre mi</a></li>
-            <li class="li-nav"><a href="views/proyects.html"><i class="fas fa-briefcase"></i> Portafolio</a></li>
-            <li class="li-nav"><a href="views/contactme.html"><i class="fas fa-envelope"></i> Contacto</a></li>
+            <li class="li-nav"><a class="menubar" href="views/aboutme.html"><i class="fas fa-user"> </i> Sobre mi </a></li>
+            <li class="li-nav"><a class="menubar" href="views/proyects.html"><i class="fas fa-briefcase"></i> Portafolio</a></li>
+            <li class="li-nav"><a class="menubar" href="views/contactme.html"><i class="fas fa-envelope"></i> Contacto</a></li>
           </ul>
           </div>
         </div>
@@ -43,10 +45,10 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 flex">
-          <div class="col-md-10">
-            <h1 class="text-center">"Descripción impactante de quien soy"</h1>
+          <div class="col-md-8 description">
+            <h1 class="text-center name">María Cristina Ortiz UX Designer</h1>
             <hr>
-            <h2 class="text-center">"Qué trabajo busco"</h2>
+            <h2 class="text-center purpose">Mi Propósito es <strong>SATISFACER</strong> las necesidades de las personas mediante UX</h2>
           </div>
         </div>
       </div>
@@ -57,15 +59,16 @@
       <div class="row">
         <div class="col-md-12 flex">
           <ul class="nav navbar-nav">
-          <li class="li-icon"><a href="#"><i class="social-networks fab fa-facebook"></i></a></li>
-          <li class="li-icon"><a href="#"><i class="social-networks fab fa-twitter-square"></i></a></li>
-          <li class="li-icon"><a href="#"><i class="social-networks fab fa-linkedin"></i></a></li>
-          <li class="li-icon"><a href="#"><i class="social-networks fab fa-github-square"></i></a></li>
+          <li class="li-icon"><a class="link-social-networks" href="#"><i class="social-networks fab fa-facebook"></i></a></li>
+          <li class="li-icon"><a class="link-social-networks" href="#"><i class="social-networks fab fa-twitter-square"></i></a></li>
+          <li class="li-icon"><a class="link-social-networks" href="#"><i class="social-networks fab fa-linkedin"></i></a></li>
+          <li class="li-icon"><a class="link-social-networks" href="#"><i class="social-networks fab fa-github-square"></i></a></li>
         </ul>
         </div>
       </div>
     </div>
   </section>
+  </div>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) para los modal -->
   <script src="vendors/js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
   <script src="vendors/bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>

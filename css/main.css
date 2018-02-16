@@ -6,15 +6,17 @@
 }
 /* ESTILOS AL BODY*/
 body {
-  padding-top: 70px;
-  font-family:'Roboto', sans-serif;
+  font-family: 'Exo 2', sans-serif;
  }
-
 body.background-image-startview {
-   background-image: url(../assets/imgs/fondo.jpg);
+   background-image: url(../assets/imgs/fondohome.jpg);
    background-size: 100% 100vh;
    background-repeat: no-repeat;
    background-position: center;
+ }
+ .opacity {
+   background-color: rgba(0,0,0,.4);
+   height: 100vh;
  }
  /* ESTILOS REUTILIZABLES*/
 .flex {
@@ -27,8 +29,15 @@ body.background-image-startview {
 	justify-content: center;
   align-items: center;
 }
+.height {
+  height: 100vh;
+}
 /* ....Fin de estilos reutilizables...*/
 /* eSTILOS A LA VISTA HOME*/
+header nav.home {
+  background-color: transparent;
+  border: none;
+}
 /* ESTILOS AL NAV*/
 .figure-logo {
   width: 40%;
@@ -37,8 +46,13 @@ body.background-image-startview {
 .put {
   outline: 1px solid red;
 }
-ul li.li-nav {
+ul li.li-nav a.menubar {
   font-size: 1.8rem;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  padding: 0;
+  padding-bottom: 5px;
+  margin: 15px;
 }
 .height-section {
   height: 80vh;
@@ -49,22 +63,72 @@ ul.nav {
 ul li.li-icon {
   font-size: 30px;
 }
-.fab {
-  color: grey;
+ul li.li-nav a.menubar:hover {
+  color: rgba(3, 76, 12, 0.7);
+  font-weight: 600;
+  border-bottom: 2px solid rgba(3, 76, 12, 0.7);
 }
+
 /* ESTILOS  A LA SECTION-DESCRIPTION*/
+.section-description {
+  margin-bottom: 50px;
+}
 hr {
-  border: 4px solid grey;
+  border: 3.5px solid rgb(245, 245, 245);;
    border-radius: 200px /8px;
    height: 0px;
    text-align: center;
 }
+.section-description div.description {
+  color: rgb(245, 245, 245);
+}
+.section-description div.description h1.name {
+  font-size: 6.5rem;
+  font-weight: 700;
+}
+.section-description div.description h2.purpose {
+  font-size: 3rem;
+  font-weight: 500;
+}
 /* ESTILOS  A LA SECTION REDES-SOCILAES*/
 i.social-networks  {
-  color: grey;
+  color:rgb(240, 240, 240);
+}
+ul.nav li.li-icon a.link-social-networks:hover {
+  background-color: rgb(100, 100, 100);
+  border-radius: 2px;
+}
+ul.nav li.li-icon a.link-social-networks:focus {
+  background-color: rgb(100, 100, 100);
+  border-radius: 2px;
 }
 /*... FIN A ESTILOS DE LA VISTA HOME...*/
 /* .....ESTILOS A LA VISTA ABOUT ME......*/
+body.padding-top {
+  padding-top: 70px;
+}
+header nav.about-me {
+  background-color: rgb(76, 175, 80);
+  border: none;
+}
+ul li.li-nav-aboutme a.menubar-aboutme {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: rgb(70, 70, 70);
+  padding: 0;
+  padding-bottom: 5px;
+  margin: 15px;
+}
+ul li.li-nav-aboutme a.menubar-aboutme:hover {
+  color: rgb(250, 250, 250);
+  font-weight: 500;
+  border-bottom: 1.5px solid rgb(250, 250, 250);
+}
+ul li.li-nav-aboutme a.menubar-aboutme:focus{
+  color: rgb(250, 250, 250);
+  font-weight: 500;
+  border-bottom: 1.5px solid rgb(250, 250, 250);
+}
 section.section-aboutme {
 
 }
@@ -78,16 +142,30 @@ section div.row-aboutme {
 }
 img.photo {
   margin-right: 0px;
+  width: 600px;
+  height: 80vh;
 }
 div.text-aboutme {
-  background-color: rgb(220, 220, 220);
+  background-color: rgba(0, 126, 148, 0.6);
   color: #000;
 }
-h2.objective, h3.paragraph-aboutme, h2.greeting {
-  margin:30px;
+h3.objective, h3.paragraph-aboutme, h1.greeting {
+  margin:50px;
+  text-align: justify;
+  line-height: 1.4;
+  color: #333;
+}
+h1.greeting {
+  font-size: 50px;
 }
 h3.paragraph-aboutme {
 
+}
+.flex-foto {
+  display: flex;
+	justify-content: center;
+  align-items: center;
+  height: 90vh;
 }
 footer {
   background-color: rgb(50, 50, 50);
@@ -105,22 +183,60 @@ h5 {
 }
 .skills {
   font-size: 2rem;
-  margin: 10px;
+  margin-right: 0;
+  padding right: 0;
+  margin-bottom: 50px;
 }
+.row-progress {
+  margin-right: 0px;
+}
+.progress {
+  margin:20px;
+}
+/* ESTILOS VISTA PORTAFOLIO*/
+section.proyect {
+  height: 81vh;
+}
+
 /* ESTILOS VISTA CONTACTME*/
 ul li.li-icon-contactme {
-  font-size: 30px;
+  font-size: 25px;
   margin: 15px 15px 0px 15px;
-  border-bottom: 2px solid grey;
   margin-top: 60px;
   margin-bottom: 70px;
 }
 .row-contact {
   margin: 80px;
+  color: rgb(240, 240, 240);
+}
+section.contactme {
+  background-color: rgb(130, 130, 130);
 }
 section div.text-contact {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
+}
+i.fa-hand-point-down {
+  font-size: 5rem;
+}
+button.btn-color {
+  background-color: rgb(0, 80, 138);
+  color: #fff;
+}
+button.btn-color:hover {
+  background-color: rgb(0, 80, 138);
+  color: #fff;
+}
+.contactme-link {
+  color: rgb(20, 20, 20);
+}
+ul.navbar-nav li.li-icon-contactme a.contactme-link:hover {
+  color: rgb(50, 50, 50);
+  font-weight: 500;
+  border: none;
+}
+.social-networks-contactme {
+  color: rgb(20, 20, 20);
 }
 .container-footer {
-  margin: 20px;
+padding: 15px;
 }
