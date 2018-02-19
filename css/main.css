@@ -8,27 +8,233 @@
 body {
   font-family: 'Exo 2', sans-serif;
  }
+ body.background-image-startview {
+    background-image: url(../assets/imgs/fondohome.jpg);
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .opacity {
+    background-color: rgba(0,0,0,.4);
+    height: 100vh;
+    padding-top: 18rem;;
+  }
+  header nav.home {
+    background-color: transparent;
+    border: none;
+  }
+  .flex {
+    display: flex;
+  	justify-content: center;
+    align-items: center;
+  }
+  .put {
+    outline: 1px solid red;
+  }
+  .section-description {
+    margin-bottom: 100px;
+  }
+  .figure-logo {
+    width: 80%;
+    max-width: 100%;
+  }
+  .bar-menu {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  button.btn {
+    background-color: rgb(240, 240, 240);
+  }
+  ul li a.list-bar{
+    font-weight: 600;
+  }
+  ul.dropdown-menu {
+  background-color: rgb(240, 240, 240);
+  margin-left: 13px;
+  margin-top: 5px;
+  }
+/* Description*/
+  hr {
+    border: 3.5px solid rgb(245, 245, 245);;
+     border-radius: 200px /8px;
+     height: 0px;
+     text-align: center;
+  }
+  .section-description div.description {
+    color: rgb(245, 245, 245);
+  }
+  .section-description div.description h2.purpose {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .section-description div.description h1.name {
+    font-size: 3.2rem;
+    font-weight: 700;
+  }
+  /* ESTILOS  A LA SECTION REDES-SOCILAES*/
+  i.social-networks  {
+    color:rgb(240, 240, 240);
+    font-size: 2rem;
+  }
+  ul.nav li.li-icon a.link-social-networks:hover {
+    background-color: rgb(100, 100, 100);
+    border-radius: 2px;
+  }
+  ul.nav li.li-icon a.link-social-networks:focus {
+    background-color: rgb(100, 100, 100);
+    border-radius: 2px;
+  }
+  /* vista about me*/
+  body.background-image-aboutme {
+     background-image: url(../assets/imgs/fondohome.jpg);
+     background-size: 130% 100vh;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+   }
+   header nav.aboutme {
+     background-color: transparent;
+     border: none;
+     background-color: rgba(0,0,0,.5);
+     padding-bottom: 10px;
+   }
+   .opacity-aboutme {
+     background-color: rgba(0,0,0,.5);
+     height: 254vh;
+     padding-top: 10rem;
+   }
+   .height {
+     height: 100vh;
+   }
+   .objective, .hobbies, .sueño {
+     color: rgb(245, 245, 245);
+     margin-bottom: 50px;
+     padding-left: 0;
+     padding-right: 0;
+   }
+   .skills, .soft-skills {
+     color: rgb(250, 250, 250);
+     margin-bottom: 20px;
+     font-size: 1.9rem;
+   }
+   .greeting {
+     color:rgb(245, 245, 245);
+     margin-bottom: 20px;
+   }
+   .objective{
+    border-bottom: 5px dashed rgb(245, 245, 245);
+    padding-bottom: 12px;
+   }
+   .objective-text, .hobbies-text, .sueño-text {
+     margin:0;
+     font-size: 2rem;
+   }
+   footer {
+     background-color: transparent;
+     border: none;
+     color: rgb(245, 245, 245);
+     padding: 8px;
+   }
+   /* EStilos a contactme*/
+   .opacity-contactme {
+     background-color: rgba(0,0,0,.4);
+     height: 100vh;
+     padding-top: 10rem;
+   }
+   body.background-image-contactme {
+      background-image: url(../assets/imgs/fondohome.jpg);
+      background-size: 130% 100vh;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    .section-contactme {
+      color: rgb(240, 240, 240);
+    }
+    .fa-hand-point-down {
+     font-size: 3rem;
+    }
+    .row-container {
+      padding: 15px;
+    }
+    .div-question, .div-hand, .div-phone, .div-social-networks, .download-cv {
+      margin-bottom: 25px;
+    }
+    .phone-tlf {
+      margin-top: 0;
+    }
+    .li-icon-contactme {
+      margin-left: 20px;
+    }
+    .fa-twitter-square, .fa-linkedin, .fa-github-square {
+     font-size: 2.2rem;
+     color: rgb(240, 240, 240);
+    }
+    .contactme-link {
+      font-size: 1.6rem;
+      color: rgb(240, 240, 240);
+    }
+    ul li a.contactme-link:focus {
+      font-size: 1.7rem;
+      font-weight: 700;
+      color:rgb(0, 0, 152);
+      border-bottom: none;
+    }
+    .download-cv  {
+      margin-bottom: 45px;
+      margin-top: 15px;
+    }
+    div.download-cv a.btn {
+      font-size: 1.8rem;
+      color: rgb(240, 240, 240);
+      background-color: rgb(40, 40, 40);
+    }
+    /* vista Portafolio*/
+    .opacity-proyect {
+      padding-top: 10rem;
+    }
+    body.background-image-portfolio {
+       background-image: url(../assets/imgs/fondohome.jpg);
+       background-size: 100% 100vh;
+       background-repeat: no-repeat;
+       background-position: center;
+       background-attachment: fixed;
+     }
+    .portfolio-item {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 40px;
+    }
+    .portfolio-text {
+      position: absolute;
+      bottom: 0;
+      width: 91.5%;
+      padding: 0 20px 0 20px;
+      background: rgba(0, 0, 0, 0.9);
+      color: rgb(245, 245, 245);
+      transform: translateY(100%);
+      transition: all 0.5s ease-out;
+    }
+    .portfolio-item:hover .portfolio-text {
+      transform: translateY(0%);
+    }
+    img {
+      max-width: 100%;
+    }
+
+ @media (min-width:768px) {
 body.background-image-startview {
    background-image: url(../assets/imgs/fondohome.jpg);
    background-size: 100% 100vh;
    background-repeat: no-repeat;
    background-position: center;
+   background-attachment: fixed;
  }
  .opacity {
-   background-color: rgba(0,0,0,.4);
-   height: 100vh;
+   padding-top: 0;
  }
  /* ESTILOS REUTILIZABLES*/
-.flex {
-  display: flex;
-	justify-content: center;
-  align-items: center;
-}
-.flex-nav {
-  display: flex;
-	justify-content: center;
-  align-items: center;
-}
+
 .height {
   height: 100vh;
 }
@@ -40,7 +246,7 @@ header nav.home {
 }
 /* ESTILOS AL NAV*/
 .figure-logo {
-  width: 40%;
+  width: 50%;
   max-width: 100%;
 }
 .put {
@@ -68,16 +274,15 @@ ul li.li-nav a.menubar:hover {
   font-weight: 600;
   border-bottom: 2px solid rgba(3, 76, 12, 0.7);
 }
-
 /* ESTILOS  A LA SECTION-DESCRIPTION*/
-.section-description {
-  margin-bottom: 50px;
-}
 hr {
   border: 3.5px solid rgb(245, 245, 245);;
    border-radius: 200px /8px;
    height: 0px;
    text-align: center;
+}
+.section-description {
+  margin-bottom: 50px;
 }
 .section-description div.description {
   color: rgb(245, 245, 245);
@@ -104,139 +309,169 @@ ul.nav li.li-icon a.link-social-networks:focus {
 }
 /*... FIN A ESTILOS DE LA VISTA HOME...*/
 /* .....ESTILOS A LA VISTA ABOUT ME......*/
-body.padding-top {
-  padding-top: 70px;
+body.background-image-aboutme {
+   background-image: url(../assets/imgs/fondohome.jpg);
+   background-size: 100% 100vh;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+ }
+ .opacity-aboutme {
+   background-color: rgba(0,0,0,.4);
+   height: 105vh;
+   padding-top: 15rem;
+ }
+ header nav.aboutme {
+   background-color: rgba(0,0,0,.3);
+ }
+ footer {
+ }
+.objective-text, .hobbies-text, .sueño-text, .skills, .soft-skills {
+  font-size: 2.3rem;
 }
-header nav.about-me {
-  background-color: rgb(76, 175, 80);
-  border: none;
-}
-ul li.li-nav-aboutme a.menubar-aboutme {
-  font-size: 1.8rem;
-  font-weight: 500;
-  color: rgb(70, 70, 70);
-  padding: 0;
-  padding-bottom: 5px;
-  margin: 15px;
-}
-ul li.li-nav-aboutme a.menubar-aboutme:hover {
-  color: rgb(250, 250, 250);
-  font-weight: 500;
-  border-bottom: 1.5px solid rgb(250, 250, 250);
-}
-ul li.li-nav-aboutme a.menubar-aboutme:focus{
-  color: rgb(250, 250, 250);
-  font-weight: 500;
-  border-bottom: 1.5px solid rgb(250, 250, 250);
-}
-section.section-aboutme {
-
-}
-section div.container-aboutme {
-  padding: 0;
-  margin: 0;
-}
-section div.row-aboutme {
-  margin-left: 0;
-  margin-right: 0;
-}
-img.photo {
-  margin-right: 0px;
-  width: 600px;
-  height: 80vh;
-}
-div.text-aboutme {
-  background-color: rgba(0, 126, 148, 0.6);
-  color: #000;
-}
-h3.objective, h3.paragraph-aboutme, h1.greeting {
-  margin:50px;
-  text-align: justify;
-  line-height: 1.4;
-  color: #333;
-}
-h1.greeting {
-  font-size: 50px;
-}
-h3.paragraph-aboutme {
-
-}
-.flex-foto {
-  display: flex;
-	justify-content: center;
-  align-items: center;
-  height: 90vh;
-}
-footer {
-  background-color: rgb(50, 50, 50);
-}
-ul li.li-icon-aboutme {
-  font-size: 25px;
-  margin: 15px 15px 0px 15px;
-}
-.social-networks-aboutme {
-  color: #fff;
-}
-h5 {
-  color: #fff;
-  fonr
-}
-.skills {
-  font-size: 2rem;
-  margin-right: 0;
-  padding right: 0;
-  margin-bottom: 50px;
-}
-.row-progress {
-  margin-right: 0px;
-}
-.progress {
-  margin:20px;
-}
+ .objective-text {
+   font-size: 2.3rem;
+   margin-left: 5px;
+   padding-top: 1.3rem;
+ }
+ .objective {
+   padding-right:15px;
+   border-right: 11px solid rgb(240, 240, 240);
+   border-bottom: 11px solid rgb(240, 240, 240);
+ }
+ .skills, .soft-skills {
+   margin-bottom: 33px;
+ }
+ .container-aboutme {
+   padding: 0 5rem 0 5rem;
+ }
 /* ESTILOS VISTA PORTAFOLIO*/
 section.proyect {
   height: 81vh;
 }
-
 /* ESTILOS VISTA CONTACTME*/
-ul li.li-icon-contactme {
-  font-size: 25px;
-  margin: 15px 15px 0px 15px;
-  margin-top: 60px;
-  margin-bottom: 70px;
+.row-container {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
-.row-contact {
-  margin: 80px;
-  color: rgb(240, 240, 240);
-}
-section.contactme {
-  background-color: rgb(130, 130, 130);
-}
-section div.text-contact {
+.div-question {
+  margin-top: 50px;
   margin-bottom: 40px;
 }
-i.fa-hand-point-down {
-  font-size: 5rem;
+.div-hand, .div-phone, .div-social-networks, .download-cv {
+  margin-bottom: 40px;
+  margin-top: 10px;
 }
-button.btn-color {
-  background-color: rgb(0, 80, 138);
-  color: #fff;
+div.div-question .question, h4.gmail, .phone, .phone-tlf, ul li a.contactme-link, div.download-cv a.btn {
+  font-size: 3.5rem;
 }
-button.btn-color:hover {
-  background-color: rgb(0, 80, 138);
-  color: #fff;
+div.download-cv a.btn {
+  padding: 2rem 5rem 2rem 5rem;
+  font-size: 3rem;
 }
-.contactme-link {
-  color: rgb(20, 20, 20);
+div.download-cv {
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
-ul.navbar-nav li.li-icon-contactme a.contactme-link:hover {
-  color: rgb(50, 50, 50);
-  font-weight: 500;
+footer {
+  background-color: transparent;
   border: none;
 }
-.social-networks-contactme {
-  color: rgb(20, 20, 20);
+
 }
-.container-footer {
-padding: 15px;
+
+@media (min-width:992px) {
+
+  .col-sm-offset-3 {
+    margin-left: 0;
+  }
+  /* vista aboutme*/
+  .opacity-aboutme {
+    height: 110vh;
+  }
+ .objective-text, .hobbies-text, .sueño-text, .skills, .soft-skills {
+   font-size: 2.5rem;
+   line-height: 1.5;
+ }
+  .objective-text {
+    font-size: 2.6rem;
+    margin-left: 5px;
+    line-height: 1.5;
+  }
+  .skills, .soft-skills {
+    margin-bottom: 50px;
+  }
+  .container-aboutme {
+    padding: 0 10rem 0 10rem;
+  }
+/* vista contactme*/
+.div-question {
+margin-top:
+}
+body.background-image-contactme {
+   background-image: url(../assets/imgs/fondohome.jpg);
+   background-size: 100% 100vh;
+ }
+/* portfolio*/
+.portfolio-container {
+  padding-left: 6rem;
+  padding-right: 6rem;
+  margin-bottom: 50px;
+}
+.portfolio-item {
+margin-bottom:35px;
+}
+}
+@media (min-width:1200px) {
+  .container-aboutme {
+    padding: 0 25rem 0 25rem;
+  }
+  /* .....ESTILOS A LA VISTA ABOUT ME......*/
+   .opacity-aboutme {
+     background-color: rgba(0,0,0,.4);
+     height: 190vh;
+     padding-top: 15rem;
+   }
+  .objective-text, .hobbies-text, .sueño-text, .skills, .soft-skills {
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
+   .objective-text {
+     font-size: 2.6rem;
+     margin-left: 5px;
+     padding-top: 1.3rem;
+     line-height: 1.5;
+   }
+/*-- Vista contactme--*/
+div.download-cv {
+  margin-top: 0;
+  margin-bottom: 20px;
+ }
+ div.div-question h3.question {
+   font-size: 5rem;
+ }
+ div.div-question {
+   margin-top: 25px;
+ }
+ .fa-hand-point-down {
+   font-size: 4rem;
+ }
+ .opacity-contactme {
+   height: 115vh;
+ }
+}
+@media (min-width:1350px) {
+  .opacity-aboutme {
+    height: 155vh;
+  }
+  .portfolio-item {
+  margin-bottom:80px;
+  }
+}
+@media (min-width:1395px) {
+  .portfolio-item {
+  margin-bottom:80px;
+  }
+  .portfolio-text {
+    width: 77%;
 }

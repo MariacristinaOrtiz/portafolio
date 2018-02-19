@@ -7,7 +7,7 @@
   <title>Portafolio</title>
   <!--Añadiendo color a la barra de navegador que se verá desde versión mobile-->
   <meta name="theme-color" content="#3eb060"/>
-  <link rel="icon" type="image/png" href="../assets/img/logomodel.png">
+  <link rel="icon" type="image/png" href="../assets/imgs/logo2.png">
   <!--Import fontawesome-->
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <!--Import Tipografy-->
@@ -17,43 +17,114 @@
   <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/main.css">
 </head>
-<body class="padding-top">
-  <header class="">
-    <nav class="navbar navbar-default about-me navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-3 text-center flex-nav">
-            <figure class="figure-logo">
-              <a class="navbar-brand" href="#">
-                <img alt="Brand" src="../assets/imgs/logo2.png" class="img-responsive">
-              </a>
-            <figure>
+<body class="padding-top background-image-portfolio">
+  <div class="opacity-proyect">
+    <header>
+      <nav class="navbar aboutme navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-2 hidden-lg hidden-md col-sm-2 flex bar-menu ">
+                <button type="button" class="dropdown-toggle btn" data-toggle="dropdown" >
+                 <i class="fas fa-bars"></i>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="list-bar" href="../index.html"><i class="fas fa-home"> </i> Inicio</a></li>
+                  <li><a class="list-bar" href="aboutme.html"><i class="fas fa-user"></i> Sobre mi</a></li>
+                  <li><a class="list-bar" href="proyects.html"><i class="fas fa-briefcase"></i> Portafolio</a></li>
+                  <li><a class="list-bar" href="contactme.html"><i class="fas fa-envelope"></i>  Contacto</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 text-center col-sm-offset-3 col-sm-6 col-xs-offset-1 col-xs-8 flex">
+              <figure class="figure-logo">
+                <a class="navbar-brand" href="#">
+                  <img alt="Brand" src="../assets/imgs/logo.png" class="img-responsive">
+                </a>
+              <figure>
+            </div>
+            <div class="col-md-7 col-md-offset-2 hidden-xs hidden-sm flex">
+              <ul class="nav navbar-nav">
+                <li class="li-nav"><a class="menubar" href="../index.html"><i class="fas fa-home"> </i> Inicio </a></li>
+              <li class="li-nav"><a class="menubar" href="aboutme.html"><i class="fas fa-user"> </i> Sobre mi </a></li>
+              <li class="li-nav"><a class="menubar" href="proyects.html"><i class="fas fa-briefcase"></i> Portafolio</a></li>
+              <li class="li-nav"><a class="menubar" href="contactme.html"><i class="fas fa-envelope"></i> Contacto</a></li>
+            </ul>
+            </div>
           </div>
-          <div class="col-md-6 col-md-offset-3 flex-nav">
-            <ul class="nav navbar-nav">
-            <li class="li-nav-aboutme"><a class="menubar-aboutme" href="../home.html"><i class="fas fa-home"></i> Inicio</a></li>
-            <li class="li-nav-aboutme"><a class="menubar-aboutme" href="aboutme.html"><i class="fas fa-user"></i> Sobre mi</a></li>
-            <li class="li-nav-aboutme"><a class="menubar-aboutme" href="proyects.html"><i class="fas fa-briefcase"></i> Portafolio</a></li>
-            <li class="li-nav-aboutme"><a class="menubar-aboutme" href="contactme.html"><i class="fas fa-envelope"></i> Contacto</a></li>
-          </ul>
+        </div>
+      </nav>
+    </header>
+  <section class="portfolio">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1></h1>
+        </div>
+        <div class="col-xs-12 portfolio-container">
+          <div class="col-xs-12 col-md-4 proyect1 portfolio-item">
+            <figure><img src="../assets/imgs/checkbus.png" alt="" class="img-responsive"></figure>
+            <div class="portfolio-text">
+              <h2 class="text-center">CheckBus</h2>
+              <p class="text-justify">CheckBus es el demo de un aplicación, que nació del “no cumplimiento de los servicios que ofrecen dentro del bus y mala atención al hacer un reclamo". La finalidad es calificar y poder hacer reclamos sobre el servicio brindado.</p>
+              <p class="text-justify">Mediante un proceso de UX research, se hizo entrevistas personales y encuesta online para recogida de información, y a través de un diagrama de afinidad se definió el problema. Se aplicó más herramientas para conocer un poco más del problema (User perosna, problem statements, HMW, what if?) y definir los feature list (solución); el  cual sirvió para realizar un paper prototype que fue testeado y mejorado hasta obtener el demo interactivo en Marvel. </p>
+              <p class="text-justify">En mi equipo, participé en todas las etapas de proceso, desde las entrevistas personales hasta hasta tener el demo interactivo final.</p>
+              <p class="text-justify">Nos faltó recoger más información de las entrevistas personales, lo cual dificultó un poco en la determinación del problema, ello sirvió como experiencia para preparar mejor un entrevista personal.</p>
+              <a target="_blank" href="https://marvelapp.com/13h4ai86/screen/38572681">Demo CheckBus</a>
+              <a target="_blank" href="https://github.com/MariacristinaOrtiz/new-experience-buses-designLab" class="btn">Leer más</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4 proyect2 portfolio-item">
+            <figure><img src="../assets/imgs/serendipia.png" alt="" class="img-responsive"></figure>
+            <div class="portfolio-text">
+              <h2 class="text-center">Serendipia</h2>
+              <p class="text-justify">Serendipia es una red social, que nació como labor social  contra la bulimia y anorexia, en la cual la gente que padece o ha padecido ese problema podrá compartir sus experiencias, motivaciones, necesidades e información positiva.</p>
+              <p class="text-justify">Inicialmente mediante un brainstorming se planteó temas para una red social, de los cuales se eligió la anorexia y bulimia cuya factibilidad fue validado por medio de los resultados de dos entrevistas a personas con esa afección. Se hizo sketches  para luego tener un prototipo de mediana fidelidad usando ForeUI, pasando  luego a maquetar y programar usando materialize y jQuery. Todo ello se hizo en 4 días.</p>
+              <p class="text-justify">En mi equipo, hicé una de las entrevistas personales, elaboré  scketches, elaboré el prototipo,  maqueté y programé la vista Perfil y splash.</p>
+              <p class="text-justify">El tiempo fue nuestra mayor limitación, faltó hacer algunas funcionalidades como: sección amigos, chat grupal, que funcione con varios usuarios. Pudimos organizarnos mejor y poner tiempos establecidos a la tareas repartidas.</p>
+              <a target="_blank" href="https://mariacristinaortiz.github.io/red-social-serendipia/">website serendipia</a>
+              <a target="_blank" href="https://github.com/MariacristinaOrtiz/red-social-serendipia" class="btn">Leer más</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4 proyect3 portfolio-item">
+            <figure><img src="../assets/imgs/marvel.png" alt="" class="img-responsive"></figure>
+            <div class="portfolio-text">
+              <h2 class="text-center">MarvelFans</h2>
+              <p class="text-justify">MarvelFans es un app dedicado a los fans de las películas de Marvel, donde pueden encontrar toda la información relacionada a cada película, armar su propia colección de películas vista o pendientes, tener un calendario de eventos y ver las ultimas noticias.</p>
+              <p class="text-justify">Mediante un brainstorming se planteó ideas para uso de OMDb Api, en el cual surgió la pregunta películas de  Marvel o DC? usamos la cantidad de seguidores en facebook para validar la idea,en el cual quedó Marvel. Hicimos una encuesta online para definir los componentes y funcionalidades del app para luego hacer paper prototype, pasando  luego a maquetar y programar usando bootstrap y jQuery. </p>
+              <p class="text-justify">En mi equipo, participé en la definición de la idea, elaboré el prototipo en papel, maqueté y programé la vista perfil.</p>
+              <p class="text-justify">Tuvimos solo un dia para hacer el proceso de UX, lo cual fue limitante para hacer testeos al prototipo.</p>
+              <a target="_blank" href="https://mariacristinaortiz.github.io/marvel-app/">Website MarvelFans</a>
+              <a target="_blank" href="https://github.com/MariacristinaOrtiz/marvel-app" class="btn">Leer más</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4 proyect4 portfolio-item">
+            <figure><img src="../assets/imgs/portfolio.png" alt="" class="img-responsive"></figure>
+            <div class="portfolio-text">
+              <h2 class="text-center">MiPortfolio</h2>
+              <p class="text-justify">MiPortafolio es un espacio virtual que nació de la necesidad de un portafolio para un futura egresada de Laboratoria, en la cual se encuentra información acerca de ella, sus proyectos y la forma de contactarla.</p>
+              <p class="text-justify">Fue un trabajo individual, donde Se hizo un proceso UX, Se revisó artículos, portafolios; se asistió a una charla,  todo ello para estructurar el contenido y diseño. Se hizo una Auto-entrevista, para obtener información para el contenido “sobre mi” y “contacto”. A partir de toda la información obtenida, se hizo el contenido“sobre mi” , “contacto” y “portafolio”, así como también los primeros sketches, para hacer luego un prototipo en papel que se testeo, para  finalmente traducirlo con bootstrap y css3 en una producto digital.</p>
+              <p class="text-justify">Por los tiempos de entrega se tuvo que hacer tareas en paralelo, mientras se testeaba el prototipo, se estaba maquetando, lo que provocó gasto de tiempo y recursos cambiar las nuevas ideas que con un manejo de tiempos se puede reducir para siguientes proyectos.</p>
+              <a target="_blank" href="https://mariacristinaortiz.github.io/portafolio/">Website MiPortafolio</a>
+              <a target="_blank" href="https://github.com/MariacristinaOrtiz/portafolio" class="btn">Leer más</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4 proyect5 portfolio-item">
+            <figure><img src="../assets/imgs/foodmap.png" alt="" class="img-responsive"></figure>
+            <div class="portfolio-text">
+              <h2 class="text-center">Foodmap</h2>
+              <p class="text-justify">Foodmap es una web-app, en la cual puedes  filtrar los restaurantes que se encuentran cerca de ti de acuerdo al tipo de comida (argentine food, colombian food, mexican food. arabic food, peruvian food)</p>
+              <p class="text-justify">Fue un trabajo individual, donde se maquetó y programó en dos días  las siguientes vistas con bootstrap y jQuery:Una vista que dura 5 segundos, Una vista principal que contiene: Un input para filtrar los restaurantes por tipo de comida (arabic food, argentine food, etc), Un modal que contiene: El nombre del restaurant, el mapa de su ubicación, un link de su sitio web, el telefono, y un botón de reservaciones.</p>
+              <p class="text-justify"></p>
+              <a target="_blank" href="https://mariacristinaortiz.github.io/foodmap/">Web-app Foodmap</a>
+              <a target="_blank" target="_blank" href="https://github.com/MariacristinaOrtiz/foodmap" class="btn">Leer más</a>
+            </div>
           </div>
         </div>
       </div>
-    </nav>
-  </header>
-  <section class="proyect">
-    
+    </div>
   </section>
   <footer>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-12 flex">
-          <ul class="navbar-nav list-unstyled">
-          <li class="li-icon-aboutme"><a href="#"><i class="social-networks-aboutme fab fa-facebook"></i></a></li>
-          <li class="li-icon-aboutme"><a href="#"><i class="social-networks-aboutme fab fa-twitter-square"></i></a></li>
-          <li class="li-icon-aboutme"><a href="#"><i class="social-networks-aboutme fab fa-linkedin"></i></a></li>
-          <li class="li-icon-aboutme"><a href="#"><i class="social-networks-aboutme fab fa-github-square"></i></a></li>
-        </ul>
         </div>
         <div class="col-md-12 text-center">
           <h5>Hecho por Macri Ⓒ 2018</h5>
@@ -61,6 +132,7 @@
       </div>
     </div>
   </footer>
+  </div>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) para los modal -->
   <script src="../vendors/js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
   <script src="../vendors/bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
