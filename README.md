@@ -6,6 +6,6 @@ MiPortafolio es un espacio virtual que nació de la necesidad de un portafolio p
 ## Desarrollado para
 [Laboratoria](http://laboratoria.la)
 ***
-## ver más detalles del proyectos
+## ver más detalles del proyecto
 
  [Ver Trello](https://trello.com/b/B5Vibgiv/portafolio)
